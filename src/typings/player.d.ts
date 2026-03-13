@@ -82,7 +82,7 @@ export interface APIPlayer {
 
 export interface APIPlayerAccount {
   /**
-   * This player's MushMC profile ID
+   * This player's Mush profile ID
    */
   profile_id: number;
   /**

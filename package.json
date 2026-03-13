@@ -1,24 +1,23 @@
 {
-  "name": "mushmc.js",
-  "description": "Unofficial MushMC API wrapper for Node.js",
+  "name": "mush-api.js",
+  "description": "Unofficial Mush API wrapper for Node.js",
   "version": "1.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "keywords": [
-    "mushmc",
     "mush",
     "api",
     "wrapper"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/murilommelo/mushmc.js.git"
+    "url": "git+https://github.com/murilommelo/mush-api.js.git"
   },
   "bugs": {
-    "url": "https://github.com/murilommelo/mushmc.js/issues"
+    "url": "https://github.com/murilommelo/mush-api.js/issues"
   },
-  "homepage": "https://github.com/murilommelo/mushmc.js#readme",
+  "homepage": "https://github.com/murilommelo/mush-api.js#readme",
   "author": "murilommelo (https://github.com/murilommelo/)",
   "license": "MIT",
   "files": [

@@ -1,10 +1,10 @@
-# 🍄 [MushMC.JS](https://npmjs.com/package/mushmc.js)
+# 🍄 [Mush-API.JS](https://npmjs.com/package/mush-api.js)
 
-[![npm version](https://img.shields.io/npm/v/mushmc.js)](https://www.npmjs.com/package/mushmc.js)
-[![npm downloads](https://img.shields.io/npm/dm/mushmc.js)](https://www.npmjs.com/package/mushmc.js)
+[![npm version](https://img.shields.io/npm/v/mush-api.js)](https://www.npmjs.com/package/mush-api.js)
+[![npm downloads](https://img.shields.io/npm/dm/mush-api.js)](https://www.npmjs.com/package/mush-api.js)
 ![typescript](https://img.shields.io/badge/built%20with-TypeScript-blue)
 
-An unofficial Node.js wrapper for the [MushMC](https://mush.com.br/) API.
+An unofficial Node.js wrapper for the [Mush](https://mush.com.br/) API.
 
 ## 📦 Installation
 
@@ -12,15 +12,15 @@ Install the package using your preferred package manager:
 
 | Package Manager | Command |
 |-----------------|---------|
-| [npm](https://npmjs.com/) | `npm install mushmc.js` |
-| [pnpm](https://pnpm.io/) | `pnpm add mushmc.js` |
-| [yarn](https://yarnpkg.com/) | `yarn add mushmc.js` |
-
+| [npm](https://npmjs.com/) | `npm install mush-api.js` |
+| [pnpm](https://pnpm.io/) | `pnpm add mush-api.js` |
+| [yarn](https://yarnpkg.com/) | `yarn add mush-api.js` |
 
 ## 📡 Usage
 ```typescript
-import { MushClient, Routes } from "mushmc.js";
-// CommonJS: const { MushClient, Routes } = require("mushmc.js");
+import { MushClient, Routes } from "mush-api.js";
+// You can use CommonJS as well
+// const { MushClient, Routes } = require("mush-api.js");
 
 const client = new MushClient();
 
@@ -31,20 +31,18 @@ console.log(player);
 
 ## 📝 To-do
 
-- Correct typing for Player statistics
+- Typings for Player statistics
+- Classes for Player, Game, Punishment & XP table
 - Rate limit handling
-- Methods for specific Player details
-- Game, Leaderboard & Punishment manager
-- Method to fetch XP tables
 
 ## ✨ Credits
 
-- [MushMC](https://mush.com.br/) for providing the public API
-- yPandinho for documenting the API in this [forum topic](https://forum.mush.com.br/topic/149525/documenta%C3%A7%C3%A3o-api-mush/)
+- [Mush](https://mush.com.br/) for providing the public API
+- [yPandinho](https://forum.mush.com.br/user/yPandinho) for documenting the API in this [forum topic](https://forum.mush.com.br/topic/149525/documenta%C3%A7%C3%A3o-api-mush/)
 
 ## ⭐ Contributing
 
 Contributions are welcome!
 
-If you want to improve this package, feel free to open a pull request.  
-If you find a bug or want to suggest a feature, please open an issue describing the problem or idea.
+If you want to improve this package, feel free to [open a pull request](https://github.com/murilommelo/mush-api.js/pulls).  
+If you find a bug or want to suggest a feature, please [open an issue](https://github.com/murilommelo/mush-api.js/issues) describing the problem or idea.
