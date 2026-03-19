@@ -1,5 +1,5 @@
-/** biome-ignore-all lint/suspicious/noExplicitAny: TODO */
-import type { Color, MushMedal, MushRank, UUID } from "./index.js";
+import type { Color, MushMedal, MushRank, UUID } from "./";
+import type { APIPlayerStats } from "./stats";
 
 export interface APIPlayer {
   /**
@@ -77,7 +77,7 @@ export interface APIPlayer {
   /**
    * This player's statistics
    */
-  stats?: Record<string, any>
+  stats?: APIPlayerStats;
 }
 
 export interface APIPlayerAccount {
@@ -108,6 +108,15 @@ export interface APIPlayerTag {
    * This player's tag name
    */
   name: MushRank;
+  /**
+   * This player's Ultra+ tag data
+   */
+  data?: {
+    /**
+     * This player's Ultra+ "+" symbol color
+     */
+    plus: string;
+  };
 }
 
 export interface APIPlayerClan {
@@ -120,9 +129,9 @@ export interface APIPlayerClan {
    */
   tag: string;
   /**
-   * This player's clan color
+   * This player's clan tag color
    */
-  color: Color;
+  tag_color: Color;
 }
 
 export interface APIPlayerDiscord {

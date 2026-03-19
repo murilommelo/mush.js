@@ -6,6 +6,9 @@
 
 An unofficial Node.js wrapper for the [Mush](https://mush.com.br/) API.
 
+> [!NOTE]
+> Please note that the typings were generated based on data collected from multiple players and may be outdated or change over time.
+
 ## 📦 Installation
 
 Install the package using your preferred package manager:
@@ -15,6 +18,7 @@ Install the package using your preferred package manager:
 | [npm](https://npmjs.com/) | `npm install mush-api.js` |
 | [pnpm](https://pnpm.io/) | `pnpm add mush-api.js` |
 | [yarn](https://yarnpkg.com/) | `yarn add mush-api.js` |
+##### This package requires Node.js 18 or higher.
 
 ## 📡 Usage
 ```typescript
@@ -31,8 +35,8 @@ console.log(player);
 
 ## 📝 To-do
 
-- Typings for Player statistics
-- Classes for Player, Game, Punishment & XP table
+- Reduce typings for `bedwars`, `duels`, `hungergames`, `missions` & `pvp` files.
+- Typings, classes and routes for Player, Game, Punishment & XP table
 - Rate limit handling
 
 ## ✨ Credits
